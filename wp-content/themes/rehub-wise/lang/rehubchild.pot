@@ -1,0 +1,381 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rehub_translation_child\n"
+"POT-Creation-Date: 2018-04-09 14:06+0300\n"
+"PO-Revision-Date: 2016-12-30 16:02+0200\n"
+"Last-Translator: Sizam themes <sizamtheme@gmail.com>\n"
+"Language-Team: Sizam Design <sizamtheme@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/admin.php:25 ../admin/admin.php:26 ../admin/option/option.php:4
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/option/option.php:9 ../admin/option/option.php:15
+msgid "General Options"
+msgstr ""
+
+#: ../admin/option/option.php:21
+msgid "Select Archives and Index Layout"
+msgstr ""
+
+#: ../admin/option/option.php:22
+msgid ""
+"Select what kind of post string layout you want to use for blog, archives"
+msgstr ""
+
+#: ../admin/option/option.php:26 ../admin/option/option.php:57
+#: ../admin/option/option.php:88
+msgid "Deal Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:30 ../admin/option/option.php:61
+#: ../admin/option/option.php:92
+msgid "Full width Deal Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:34 ../admin/option/option.php:65
+#: ../admin/option/option.php:96
+msgid "Simple Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:38 ../admin/option/option.php:69
+#: ../admin/option/option.php:100
+msgid "Full width Simple Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:42 ../admin/option/option.php:73
+#: ../admin/option/option.php:104
+msgid "List layout"
+msgstr ""
+
+#: ../admin/option/option.php:52
+msgid "Select Category Layout"
+msgstr ""
+
+#: ../admin/option/option.php:53
+msgid "Select what kind of post string layout you want to use for categories"
+msgstr ""
+
+#: ../admin/option/option.php:83
+msgid "Select Search Layout"
+msgstr ""
+
+#: ../admin/option/option.php:84
+msgid "Select what kind of post string layout you want to use for search pages"
+msgstr ""
+
+#: ../admin/option/option.php:114
+msgid "Post layout"
+msgstr ""
+
+#: ../admin/option/option.php:131
+msgid "Select Width Style"
+msgstr ""
+
+#: ../admin/option/option.php:135
+msgid "Regular (1200px)"
+msgstr ""
+
+#: ../admin/option/option.php:139
+msgid "Extended (1530px)"
+msgstr ""
+
+#: ../admin/option/option.php:143
+msgid "Compact (adsense banners optimized)"
+msgstr ""
+
+#: ../admin/option/option.php:153
+msgid "Select pagination type for categories"
+msgstr ""
+
+#: ../admin/option/option.php:154
+msgid ""
+"Choose number of posts per page in Settings - Reading settings. Recommended "
+"number - 12"
+msgstr ""
+
+#: ../admin/option/option.php:158
+msgid "Simple Pagination"
+msgstr ""
+
+#: ../admin/option/option.php:162
+msgid "Infinite scroll"
+msgstr ""
+
+#: ../admin/option/option.php:166
+msgid "Next page button"
+msgstr ""
+
+#: ../admin/option/option.php:176
+msgid "Category filter panel"
+msgstr ""
+
+#: ../admin/option/option.php:177
+msgid ""
+"You can add additional filter panel in category pages (working only in "
+"Recash and Rewise). Add each filter from next line. Example: Title:meta_key:"
+"DESC. In most cases, you will need next filter panel code. <br /><br />Show "
+"all:all:DESC<br />Best price:rehub_main_product_price:ASC<br />Hottest:"
+"post_hot_count:DESC<br />Popular:rehub_views:DESC<br />Price range:"
+"price:0-100:DESC<br /><br />To show hottest deals sorted by date, use<br /"
+">Hottest:hot:DESC<br /><br />To show deals and coupons sorted by expiration "
+"date<br />Expired soon:expiration:ASC<br /><br /><a href=\"http://rehubdocs."
+"wpsoul.com/docs/rehub-theme/list-of-important-meta-fields/\" target=\"_blank"
+"\">Check other important fields</a>"
+msgstr ""
+
+#: ../admin/option/option.php:182
+msgid "Enable button in default deal grid layout?"
+msgstr ""
+
+#: ../admin/option/option.php:188
+msgid "Show in default grid price area"
+msgstr ""
+
+#: ../admin/option/option.php:192
+msgid "User logo + Price"
+msgstr ""
+
+#: ../admin/option/option.php:196
+msgid "Brand logo + Price"
+msgstr ""
+
+#: ../admin/option/option.php:200
+msgid "Only Price"
+msgstr ""
+
+#: ../admin/option/option.php:204
+msgid "Nothing"
+msgstr ""
+
+#: ../admin/option/option.php:214
+msgid "Enable affiliate links from title and image in grid?"
+msgstr ""
+
+#: ../admin/option/option.php:220
+msgid "Disable comment and thumbs actions in categories?"
+msgstr ""
+
+#: ../admin/option/option.php:226
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/option/option.php:227
+msgid "Write your custom CSS here"
+msgstr ""
+
+#: ../admin/option/option.php:232
+msgid "js code in footer"
+msgstr ""
+
+#: ../admin/option/option.php:233
+msgid "Enter your Analytics code or any html, js code"
+msgstr ""
+
+#: ../admin/option/option.php:238
+msgid "Js code for header (analytics)"
+msgstr ""
+
+#: ../admin/option/option.php:243
+msgid "Enable frontend in visual composer?"
+msgstr ""
+
+#: ../admin/option/option.php:249
+msgid "Hottest value"
+msgstr ""
+
+#: ../admin/option/option.php:250
+#, php-format
+msgid ""
+"After hot metter reach this value, scale will have hot image and 100% fill + "
+"will be used in hottest filter"
+msgstr ""
+
+#: ../admin/option/option.php:259
+msgid "Coldest value"
+msgstr ""
+
+#: ../admin/option/option.php:260
+#, php-format
+msgid ""
+"After hot metter reach this value, scale will have cold image and 100% fill "
+"of cold"
+msgstr ""
+
+#: ../admin/option/option.php:271
+msgid "Appearance/Color"
+msgstr ""
+
+#: ../admin/option/option.php:277
+msgid "Color schema of website"
+msgstr ""
+
+#: ../admin/option/option.php:282
+msgid "Custom color schema"
+msgstr ""
+
+#: ../admin/option/option.php:283
+msgid ""
+"Default theme color schema is red, but you can set your own main color (it "
+"will be used under white text)"
+msgstr ""
+
+#: ../admin/option/option.php:290
+msgid "Custom secondary color"
+msgstr ""
+
+#: ../admin/option/option.php:291
+msgid "Set secondary color (for search buttons, tabs, etc)."
+msgstr ""
+
+#: ../admin/option/option.php:299
+msgid "Set offer buttons color"
+msgstr ""
+
+#: ../admin/option/option.php:306
+msgid "Custom color for links inside posts"
+msgstr ""
+
+#: ../admin/option/option.php:313
+msgid "Layout settings"
+msgstr ""
+
+#: ../admin/option/option.php:318
+msgid "Set sidebar to left side?"
+msgstr ""
+
+#: ../admin/option/option.php:324
+msgid "Enable boxed version?"
+msgstr ""
+
+#: ../admin/option/option.php:330
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/option/option.php:336
+msgid "Background Image"
+msgstr ""
+
+#: ../admin/option/option.php:337
+msgid ""
+"Upload a background image. This field works only if you set also background "
+"color in field above"
+msgstr ""
+
+#: ../admin/option/option.php:343
+msgid "Background Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:347
+msgid "Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:351
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:355
+msgid "Repeat X"
+msgstr ""
+
+#: ../admin/option/option.php:359
+msgid "Repeat Y"
+msgstr ""
+
+#: ../admin/option/option.php:369
+msgid "Background Position"
+msgstr ""
+
+#: ../admin/option/option.php:388
+msgid "Set offset"
+msgstr ""
+
+#: ../admin/option/option.php:389
+msgid "Set offset from top for background (with px) for avoid header overlap"
+msgstr ""
+
+#: ../admin/option/option.php:395
+msgid "Fixed Background Image?"
+msgstr ""
+
+#: ../admin/option/option.php:396
+msgid "The background is fixed with regard to the viewport."
+msgstr ""
+
+#: ../admin/option/option.php:401
+msgid "Fit size?"
+msgstr ""
+
+#: ../admin/option/option.php:402
+msgid "Set background image width and height to fit the size of window"
+msgstr ""
+
+#: ../admin/option/option.php:407
+msgid "Url for branded background"
+msgstr ""
+
+#: ../admin/option/option.php:408
+msgid "Insert url that will be display on background"
+msgstr ""
+
+#: ../archive.php:43
+msgid "Tag:"
+msgstr ""
+
+#: ../archive.php:46
+msgid "Archive:"
+msgstr ""
+
+#: ../archive.php:48 ../archive.php:50
+msgid "Browsing Archive"
+msgstr ""
+
+#: ../archive.php:83 ../category.php:146 ../index.php:103
+msgid "Sorry. No posts in this category yet"
+msgstr ""
+
+#: ../category.php:142 ../index.php:99
+msgid "Show next"
+msgstr ""
+
+#: ../inc/parts/column_grid.php:20 ../inc/parts/query_type1.php:6
+msgid "Added to wishlist"
+msgstr ""
+
+#: ../inc/parts/column_grid.php:21 ../inc/parts/query_type1.php:7
+msgid "Removed from wishlist"
+msgstr ""
+
+#: ../inc/parts/query_type1.php:79
+msgid "Check all prices"
+msgstr ""
+
+#: ../inc/parts/simplepostlist.php:15
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../search.php:37
+msgid "Search results for:"
+msgstr ""
+
+#: ../search.php:69
+msgid "Sorry. No posts for this search"
+msgstr ""
+
+#~ msgid ""
+#~ "This option panel is built using <a href=\"http://vafpress.com/vafpress-"
+#~ "framework\">Vafpress Framework %s</a> powered by <a href=\"http://"
+#~ "vafpress.com\">Vafpress</a>"
+#~ msgstr " "

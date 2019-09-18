@@ -1,35 +1,60 @@
-body {background: none #fff;}
-.main-nav.white_style {background: none #ecf5fa;}
-.main-nav.dark_style {background: none #eb0909;}
-.main-nav.dark_style nav.top_menu > ul > li {border-right: 1px solid rgba(0,0,0,.15);}
+/*
+  Theme Name: Rehub child theme - Rewise
+  Theme URI: http://revendor.wpsoul.net/
+  Description: A Hybrid magazine/shop/review/news Wordpress Theme
+  Author: Wpsoul
+  Author URI: https://wpsoul.com/
+  Version: 7.4
+  Template: rehub
+  Text Domain: rehubchild
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body { background: none #fff; }
+.main-nav.white_style {background: none #ecf5fa; }
+.main-nav.dark_style{background: none #eb0909; }
+.main-nav.dark_style nav.top_menu > ul > li {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
 nav.top_menu > ul > li > a:hover, nav.top_menu > ul > li.current-menu-item a, .search-header-contents {border-top-color: transparent !important;}
-.category .wpsm-title.middle-size-title h5, .tag .wpsm-title.middle-size-title h5 {padding: 0;}
-.widget.tabs > ul {border: none;}
-.sidebar .widget.tabs, .widget.outer_widget {border: none;padding: 0;background-color: transparent;box-shadow: none;}
-.rate_bar_wrap {background-color: transparent;padding: 30px;}
-.single_top_main .stars-rate {margin: 0 0 10px 0;display: inline-block;}
-.sidebar .list_excerpt {display: none;}
-.dealScore .thumbscount {background: #dff0ef;}
-.dealScore .label {background: #23b5ac;}
-.coupon_code_in_modal .coupon_modal_coupon {background-color: #f2f2f2;}
-.rewise-box.rh-cartbox, .eq_grid .col_item {box-shadow: 0 5px 23px rgba(188,207,219,.35);border-top: 1px solid #f8f8f8;}
-.rewise-box.rh-cartbox:hover, .eq_grid .col_item:hover {box-shadow: rgba(0,0,0,.12) 0px 3px 4px;}
-.rewise-box figure {white-space: nowrap;position: relative;text-align: center;margin: 0 auto 15px auto;overflow: hidden;height: 180px;vertical-align: middle;}
-.rewise-box figure img {max-width: 100%;width: auto;max-height: 180px;vertical-align: middle;display: inline-block;}
-.rewise-box figure:before {content: "";display: inline-block;height: 100%;vertical-align: middle;margin-right: -.25em;}
-.rewise-box h3 {font-size: 16px;line-height: 18px;margin: 0 0 12px 0;}
-.col_wrap_fifth .rewise-box h3, .col_wrap_six .rewise-box h3 {font-weight: normal;}
-.col_wrap_fifth .rewise-box figure, .col_wrap_six .rewise-box figure {height: 150px;}
-.rewise-box .simple_price_count {margin: 0 5px 0 0;font-size: 15px;line-height: 18px;}
-.rewise-box .post-meta {line-height: 18px;font-size: 13px;}
-.rewise-box-price {font-size: 22px;font-weight: bold;font-family: Roboto;}
-.eq_grid .col_item {border: 1px solid #ededed;}
-.grid_onsale, .overlay_post_formats.sale_format {background: #43c801;}
-.rh_post_layout_big_offer .priced_block .btn_offer_block, .priced_block .price_count, .wpsm-button {border-radius: 100px !important;}
-.right_aff .priced_block .price_count, .right_aff .priced_block .btn_offer_block, .right_aff .priced_block .button, .custom_search_box button[type="submit"] {border-radius: 0 !important;}
-.wpsm_score_box {box-shadow: 0 0 28px #eaeaea;}
-.sidebar .conditional_widget_widget.widget {overflow: visible;}
-.featured_newscom_left .grid_onsale {bottom: 0;top: auto;}
-.rewise-box .button_action {z-index: 2;position: absolute;top: 6px;right: 10px;background: rgba(255,255,255,.78);border-radius: 100px;padding: 0 5px;}
-@media screen and (max-width: 1224px) {}
-@media (max-width: 767px) {}
+.category .wpsm-title.middle-size-title h5, .tag .wpsm-title.middle-size-title h5{padding: 0}
+
+.widget.tabs > ul{border: none;}
+.sidebar .widget.tabs, .widget.outer_widget{border: none; padding: 0; background-color: transparent; box-shadow: none;}
+.rate_bar_wrap{background-color: transparent;padding: 30px}
+.single_top_main .stars-rate{margin: 0 0 10px 0; display: inline-block;}
+.sidebar .list_excerpt{display: none;}
+.dealScore .thumbscount{background: #dff0ef;}
+.dealScore .label{background: #23b5ac;}
+.coupon_code_in_modal .coupon_modal_coupon{background-color: #f2f2f2}
+
+.rewise-box.rh-cartbox, .eq_grid .col_item{box-shadow: 0 5px 23px rgba(188, 207, 219, 0.35); border-top: 1px solid #f8f8f8;}
+.rewise-box.rh-cartbox:hover, .eq_grid .col_item:hover {box-shadow: rgba(0,0,0,0.12) 0px 3px 4px;}
+.rewise-box figure{white-space: nowrap;position: relative;text-align: center;margin: 0 auto 15px auto;overflow: hidden;height: 180px;vertical-align: middle;}
+.rewise-box figure img{max-width: 100%;width: auto;max-height: 180px;vertical-align: middle;display: inline-block;}
+.rewise-box figure:before {content: '';display: inline-block;height: 100%;vertical-align: middle;margin-right: -0.25em;}
+.rewise-box h3 {font-size: 16px;line-height: 18px;margin: 0 0 12px 0; }
+.col_wrap_fifth .rewise-box h3, .col_wrap_six .rewise-box h3{font-weight: normal;}
+.col_wrap_fifth .rewise-box figure, .col_wrap_six .rewise-box figure{height: 150px}
+.rewise-box .simple_price_count{margin: 0 5px 0 0; font-size: 15px; line-height: 18px}
+.rewise-box .post-meta{line-height: 18px; font-size: 13px}
+.rewise-box-price{font-size: 22px; font-weight: bold; font-family: Roboto}
+.eq_grid .col_item{border: 1px solid #ededed;}
+.grid_onsale, .overlay_post_formats.sale_format{background:#43c801}
+
+.rh_post_layout_big_offer .priced_block .btn_offer_block, .priced_block .price_count, .wpsm-button{border-radius: 100px !important}
+.right_aff .priced_block .price_count, .right_aff .priced_block .btn_offer_block, .right_aff .priced_block .button, .custom_search_box button[type="submit"]{border-radius: 0 !important}
+.wpsm_score_box{box-shadow: 0 0 28px #eaeaea;}
+.sidebar .conditional_widget_widget.widget{overflow: visible;}
+.featured_newscom_left .grid_onsale{bottom: 0; top: auto;}
+
+.rewise-box .button_action{z-index:2; position: absolute;top: 6px;right: 10px;background: rgba(255, 255, 255, 0.78);border-radius: 100px;padding: 0 5px;}
+
+@media screen and (max-width: 1224px) {
+}
+
+@media (max-width: 767px) {
+
+} 
