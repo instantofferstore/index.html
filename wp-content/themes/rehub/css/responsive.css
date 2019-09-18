@@ -37,9 +37,10 @@
 	.top_rating_block .priced_block .btn_offer_block:after {display: none;}
 	.top_table_block .rank_count {display: none !important;}
 	.scrollable_table {overflow-x: scroll;}
-	.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s;position: static !important;}
+	.stickyscroll_widget.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s;position: static !important;}
 	.widget .rehub_chimp_flat #mc_embed_signup input#mc-embedded-subscribe {width: 100%;position: static;}}
-@media screen and (max-width: 767px) {.top_rating_block.list_style_rating .star strong {float: none;}
+@media screen and (max-width: 767px) {.table_view_charts .is-sticky li {position: static !important;}
+	.top_rating_block.list_style_rating .star strong {float: none;}
 	nav.top_menu, .header_top_wrap {display: none;}
 	.top_theme #vertical-ticker {font-size: 12px;}
 	.rate-line .line span {height: 18px;}
@@ -117,7 +118,6 @@
 	.footer_widget .widget .title {margin-top: 0;}
 	footer#theme_footer .left {width: 100%;text-align: center;}
 	footer#theme_footer .right {width: 100%;text-align: center;margin-top: 10px;}
-	a.vid_icon {margin: 0;top: 10px;left: 10px;}
 	.tabs_img, .news_out_thumb {width: 100%;height: auto;}
 	a.comment_two {font-size: 11px;padding: 1px 3px;}
 	a.comment_two:after {border-width: 6px 7px 9px 0;}
@@ -126,7 +126,7 @@
 	.main-side .wp-pagenavi {font-size: 13px;}
 	.post blockquote p {font-size: 16px;line-height: 18px;}
 	.single .priced_block {margin-top: 12px;margin-left: 0;}
-	.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s;position: static !important;}
+	.stickyscroll_widget.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s;position: static !important;}
 	.single .star {float: left;}
 	.commentlist .comment-author a, .commentlist .comment-author time {margin: 0 0 10px 0;float: none;display: block;}
 	a.comment-reply-link, a.comment-edit-link {text-align: right;}
@@ -142,8 +142,6 @@
 	.overlay_post_formats.review_formats_gallery {padding: 3px 7px;font-size: 12px;}
 	.rehub_feat_block .priced_block {clear: both;}
 	.user-rate {float: left;clear: both;}
-	article.column_grid .priced_block .btn_offer_block:after {border: none;}
-	article.column_grid h2 {font-size: 18px;line-height: 18px;}
 	.column_grid.last-col {margin-right: 0;}
 	.wpsm_pros {padding-left: 0 !important;}
 	.rehub_chimp #mc_embed_signup input.button {position: static;border-radius: 5px !important;margin: 0 auto;}
@@ -166,7 +164,7 @@
 	.dl-menuwrapper button:after {height: 4px;box-shadow: 0 9px 0 #fff,0 18px 0 #fff;}
 	.rehub_specification table th {width: auto;}
 	.page-link a, .page-link > span, .page-link, ul.page-numbers li, ul.page-numbers {border: none !important;margin-bottom: 10px;}
-	.mobile_compact_grid figure {float: left;width: 110px;height: 110px;margin: 0 15px 15px 0 !important;}
+	.mobile_compact_grid figure {float: left;width: 110px;height: 110px !important;margin: 0 15px 8px 0 !important;}
 	.mobile_compact_grid figure a.rh-flex-center-align {height: 110px;width: 110px;vertical-align: top;text-align: center;display: table-cell;}
 	.mobile_compact_grid .grid_desc_and_btn {float: left;width: calc(100% - 130px);}
 	.mobile_compact_grid .priced_block {margin: 0;}
@@ -176,5 +174,4 @@
 	.mobile_compact_grid .priced_block .btn_offer_block {padding: 10px 12px;}
 	.mobile_compact_grid .meta_for_grid {clear: both;}
 	.mobile_compact_grid .priced_block .btn_offer_block:not(.coupon_btn):before {top: 10px;}
-	#mc_embed_signup input#mc-embedded-subscribe {position: static;margin: 10px auto;width: 100%;border-radius: 0;display: block;}
-	.widget .rehub_chimp_flat #mc_embed_signup input#mc-embedded-subscribe {width: 100%;position: static;}}
+	.rehub_chimp_flat #mc_embed_signup input#mc-embedded-subscribe, #mc_embed_signup input#mc-embedded-subscribe {position: static;margin: 10px auto;width: 100%;border-radius: 0;display: block;}}

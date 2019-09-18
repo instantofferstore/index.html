@@ -43,7 +43,7 @@ span.rating_small {white-space: nowrap;}
 .egg-list .row-products {margin-bottom: 15px;margin-top: 0;}
 .egg-container .cegg-image-cell img {width: auto;}
 .egg-container .cegg-image-cell {text-align: center;}
-.cegg-image-container img {vertical-align: top;max-width: 100%;height: auto;display: inline-block;max-height: 350px;}
+.cegg-image-container img {vertical-align: top;max-width: 100%;height: auto;display: inline-block;max-height: 500px;}
 .egg-container .cegg-no-top-margin {margin-top: 0;}
 .egg-container .cegg-no-bottom-margin {margin-bottom: 0;}
 .egg-container .cegg-mb5 {margin-bottom: 5px;}
@@ -82,7 +82,6 @@ span.rating_small {white-space: nowrap;}
 .cegg-lineheight15 {line-height: 15px;}
 .cegg-price-tracker-item .price-alert-title {color: #111;font-weight: bold;line-height: 20px;}
 .egg-text-bold {font-weight: bold;}
-.cegg-price-alert-wrap .price-alert-agree-label {font-weight: normal;font-size: 90%;}
 .egg-grid-wdgt .product-discount-value {font-size: 18px;margin-right: 1px;font-weight: bold;white-space: nowrap;}
 .egg-grid-wdgt .product-discount-symbol {letter-spacing: 0;font-weight: bold;font-size: 16px;}
 .egg-grid-wdgt .product-discount-value, .product-discount-symbol, .product-discount-off {color: #f22a2c;}
@@ -104,9 +103,6 @@ span.rating_small {white-space: nowrap;}
 .cegg-price-comparison .cegg-price_col a {text-decoration: none;box-shadow: none;color: #111;font-weight: bold;}
 .cegg-price-comparison .cegg-merhant_col {vertical-align: middle !important;}
 .cegg-price-comparison .cegg-merhant_col a {text-decoration: none;box-shadow: none;color: #111;vertical-align: middle !important;}
-.egg-container .stock-status {font-size: 80%;cursor: help;font-weight: normal;}
-.egg-container .status-instock {color: #7ad03a;}
-.egg-container .status-outofstock {color: #a44;}
 @media (max-width: 768px) {.egg-container .egg-listcontainer, .egg-container .egg-listcontainer .row-products, .egg-container .egg-listcontainer .row-products > div {display: block;}
 	.egg-container .egg-listcontainer .row-products > div {border: none;padding: 0;margin-bottom: 12px;text-align: center;}
 	.egg-container .egg-listcontainer .row-products {border-bottom: 1px solid #ddd;margin: 0;padding: 10px 0;}

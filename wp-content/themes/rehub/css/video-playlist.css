@@ -6,7 +6,7 @@
 .rh_wrapper_video_playlist .rh_click_video:hover {box-shadow: 1200px 0 0 #333 inset;cursor: pointer;}
 .rh_wrapper_video_playlist .rh_video_thumb, .rh_wrapper_video_playlist .rh_video_stop_play_control {position: absolute;top: 10px;width: 100px;height: 55px;overflow: hidden;margin-left: 16px;z-index: 1;}
 .rh_wrapper_video_playlist .rh_video_stop_play_control {z-index: 2 !important;display: none;text-align: center;}
-.rh_wrapper_video_playlist .rh_youtube_control, .rh_wrapper_video_playlist .rh_vimeo_control {cursor: pointer;text-decoration: none;font-family: FontAwesome;font-size: 2em;line-height: 55px;color: #fff;}
+.rh_wrapper_video_playlist .rh_youtube_control, .rh_wrapper_video_playlist .rh_vimeo_control {cursor: pointer;text-decoration: none;font-family: Font Awesome 5 Pro;font-size: 2em;line-height: 55px;color: #fff;}
 .rh_wrapper_video_playlist .rh-sp-video-play:before {content: "";}
 .rh_wrapper_video_playlist .rh-sp-video-pause:before {content: "";}
 .rh_wrapper_video_playlist .rh_video_currently_playing .rh_video_stop_play_control {display: block;}

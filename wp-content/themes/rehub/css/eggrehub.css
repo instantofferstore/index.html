@@ -157,7 +157,6 @@ ul.featured_list {margin: 15px 0;text-align: left;}
 .table_merchant_list .val_sim_price_used_merchant {font-size: 9px;}
 .re_wooinner_info .egg-container .well-lg {padding: 0;margin-bottom: 22px;}
 .cegg-price-alert-wrap .wpsm-button {white-space: nowrap;}
-.goonewsgrid .medianews-body {width: calc(100% - 100px);}
 @media (max-width: 767px) {.egg_grid .small_post .affegg_grid_title {font-size: 16px;line-height: 20px;height: auto;min-height: 1px;margin-bottom: 25px;font-weight: bold;}
 	.egg_grid .small_post .affegg_grid_title:after {display: none;}}
 .table_view_block .offer_thumb.logo_offer_thumb img {max-width: 80px;}

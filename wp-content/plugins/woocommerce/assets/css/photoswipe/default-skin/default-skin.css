@@ -1,4 +1,4 @@
-.pswp__button {width: 44px;height: 44px;position: relative;background: none;cursor: pointer;overflow: visible;-webkit-appearance: none;display: block;border: 0;padding: 0;margin: 0;float: right;opacity: .75;-webkit-transition: opacity .2s;transition: opacity .2s;-webkit-box-shadow: none;box-shadow: none;}
+.pswp__button {width: 44px;height: 44px;position: relative;background: none;cursor: pointer;overflow: visible;-webkit-appearance: none;display: block;border: 0;padding: 0;margin: 0;float: right;opacity: .75;z-index: 1600;-webkit-transition: opacity .2s;transition: opacity .2s;-webkit-box-shadow: none;box-shadow: none;}
 .pswp__button:focus, .pswp__button:hover {opacity: 1;}
 .pswp__button:active {outline: none;opacity: .9;}
 .pswp__button::-moz-focus-inner {padding: 0;border: 0;}
@@ -65,7 +65,7 @@ a.pswp__share--download:hover {background: #ddd;}
 @keyframes donut-rotate {0% {-webkit-transform: rotate(0);transform: rotate(0);}
 	50% {-webkit-transform: rotate(-140deg);transform: rotate(-140deg);}
 	100% {-webkit-transform: rotate(0);transform: rotate(0);}}
-.pswp__ui {-webkit-font-smoothing: auto;visibility: visible;opacity: 1;z-index: 1550;}
+.pswp__ui {visibility: visible;opacity: 1;z-index: 1550;}
 .pswp__top-bar {position: absolute;left: 0;top: 0;height: 44px;width: 100%;}
 .pswp__caption, .pswp__top-bar, .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {-webkit-backface-visibility: hidden;will-change: opacity;-webkit-transition: opacity 333ms cubic-bezier(.4,0,.22,1);transition: opacity 333ms cubic-bezier(.4,0,.22,1);}
 .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {visibility: visible;}

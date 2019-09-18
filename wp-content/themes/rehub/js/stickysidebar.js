@@ -101,11 +101,20 @@
             });
 
             // Get the sticky sidebar element. If none has been found, then create one.
-            o.stickySidebar = o.sidebar.find('.vc_column-inner');
-            if (o.stickySidebar.length == 0) {
-               o.sidebar.find('script').remove(); // Remove <script> tags, otherwise they will be run again on the next line.
-               o.stickySidebar = $('<div>').addClass('vc_column-inner').append(o.sidebar.children());
-               o.sidebar.append(o.stickySidebar);
+            if(o.sidebar.hasClass('rh-sticky-container')){
+               o.stickySidebar = o.sidebar.find('.rh-sticky-wrap-column');
+               if (o.stickySidebar.length == 0) {
+                  o.sidebar.find('script').remove(); // Remove <script> tags, otherwise they will be run again on the next line.
+                  o.stickySidebar = $('<div>').addClass('rh-sticky-wrap-column').append(o.sidebar.children());
+                  o.sidebar.append(o.stickySidebar);
+               }
+            }else if(o.sidebar.hasClass('wpb_column')){
+               o.stickySidebar = o.sidebar.find('.vc_column-inner');
+               if (o.stickySidebar.length == 0) {
+                  o.sidebar.find('script').remove(); // Remove <script> tags, otherwise they will be run again on the next line.
+                  o.stickySidebar = $('<div>').addClass('vc_column-inner').append(o.sidebar.children());
+                  o.sidebar.append(o.stickySidebar);
+               }
             }
 
             // Get existing top and bottom margins and paddings

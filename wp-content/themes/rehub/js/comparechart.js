@@ -46,8 +46,8 @@ jQuery(document).ready(function($) {
 			
 			$('#re-compare-bar-tabs').children("ul").children("li").click(function(){
 				pageid = parseInt($(this).attr("data-page"));
-				compareurl = $(this).data("url");
-				comparing = $(this).data("comparing");
+				compareurl = $(this).attr("data-url");
+				comparing = $(this).attr("data-comparing");
 				comparing = (comparing) ? '?compareids=' + comparing : '';
 				$('.re-compare-destin').attr('data-compareurl', compareurl + comparing); 
 			});			
@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
 
    
    //Compare close button in chart
-   $(document).on('click', '.re-compare-close-in-chart', function(e){
+   $(document).on('click touchstart', '.re-compare-close-in-chart', function(e){
       var block = $(this).closest('.top_rating_item'); 
       $(this).closest('.table_view_charts').find('li').removeClass('row-is-different');      
       var compareID = block.data('compareid');    

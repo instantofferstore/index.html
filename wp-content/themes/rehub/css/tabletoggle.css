@@ -23,8 +23,8 @@ table.tablesaw {empty-cells: show;max-width: 100%;width: 100%;}
 .tablesaw-sortable-switch .sort-label-intable {display: none;}
 .tablesaw-sortable-switch label select {padding: 5px 10px;opacity: 1;margin-bottom: 10px;float: right;}
 .tablesaw-sortable .tablesaw-sortable-head button {min-width: 100%;color: inherit;background: transparent;border: 0;padding: 0;font: inherit;text-transform: inherit;position: relative;outline: none;cursor: pointer;}
-.tablesaw-sortable .tablesaw-sortable-head button:after, .tablesaw-sortable .tablesaw-sortable-head button:after {content: "  ";font-family: FontAwesome;font-size: 12px;}
-.tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-ascending button:after {content: "  ↑";font-family: inherit;}
-.tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-descending button:after {content: "  ↓";font-family: inherit;}
+.tablesaw-sortable .tablesaw-sortable-head button:after, .tablesaw-sortable .tablesaw-sortable-head button:after {content: "  ";font-family: Font Awesome 5 Pro;font-size: 12px;font-weight: 900;}
+.tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-ascending button:after {content: "  ";font-family: inherit;font-weight: 900;}
+.tablesaw-sortable .tablesaw-sortable-head.tablesaw-sortable-descending button:after {content: "  ";font-family: inherit;font-weight: 900;}
 .tablesaw-sortable .not-applicable:after {content: "--";display: block;}
 .tablesaw-sortable .not-applicable span {display: none;}

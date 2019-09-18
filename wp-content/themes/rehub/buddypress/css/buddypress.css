@@ -44,7 +44,7 @@ body.no-js #buddypress div.item-list-tabs ul li.last select {opacity: 1;}
 #buddypress #nav-above {display: none;}
 #buddypress .paged #nav-above {display: block;}
 #buddypress img.wp-smiley {border: none !important;clear: none !important;float: none !important;margin: 0 !important;padding: 0 !important;}
-#buddypress #activity-stream {margin-top: 0;}
+#buddypress #activity-stream {margin-top: 0;overflow: hidden;}
 #buddypress #activity-stream p {margin: 0 0 10px 0;}
 #buddypress div#latest-update {position: relative;overflow: visible;padding-top: 12px;padding-bottom: 10px;font-style: italic;}
 #buddypress form#whats-new-form, #buddypress div#invite-list {margin: 0 0 32px 0;color: #5091b2;background: #e9f7fe;border: 1px solid #b6d7e8;padding: 22px;overflow: hidden;}
@@ -81,7 +81,7 @@ body.no-js #buddypress div.item-list-tabs ul li.last select {opacity: 1;}
 #buddypress .activity-list li.load-newest a {color: #4d4d4d;}
 #buddypress .activity-meta-justicons {position: absolute;top: -10px;right: 10px;}
 #buddypress .activity-meta-justicons a {text-align: center;text-decoration: none;display: inline-block;color: #fff;position: relative;border-radius: 50%;font-size: 0;background-color: #888;height: 28px;width: 28px;padding: 0;line-height: 28px;margin: 0 3px;box-shadow: 0 2px 2px #ddd;}
-#buddypress .activity-meta-justicons a:before {font-family: FontAwesome;font-size: 16px;}
+#buddypress .activity-meta-justicons a:before {font-family: Font Awesome 5 Pro;font-size: 16px;}
 #buddypress .activity-meta-justicons a.acomment-reply:before, #buddypress .activity-meta-justicons a.acomment-see:before {content: "";}
 #buddypress .activity-meta-justicons a span {background: #c00;position: absolute;top: -1px;right: -1px;text-align: center;font-size: 10px;line-height: 12px;padding: 0 3px;border-radius: 8px;}
 #buddypress .activity-meta-justicons a.fav:before {content: "";font-size: 14px;}
@@ -144,7 +144,7 @@ body.no-js #buddypress div.item-list-tabs ul li.last select {opacity: 1;}
 #buddypress .dir-search label.bp-screen-reader-text {display: none;}
 #buddypress .groups-members-search input[type="submit"], #buddypress div.message-search input[type="submit"] {display: none;}
 #buddypress .groups-members-search input[type=text], #buddypress div.message-search input[type=text] {width: 100%;padding: 10px 50px 10px 10px;font-size: 15px;line-height: 18px;min-width: 280px;}
-#buddypress .groups-members-search label:after {position: absolute;display: inline-block;top: 10px;right: 12px;content: "";font: normal normal normal 16px/1 fontawesome;line-height: 18px;}
+#buddypress .groups-members-search label:after {position: absolute;display: inline-block;top: 10px;right: 12px;content: "";font: normal normal normal 16px/1 Font Awesome 5 Pro;line-height: 18px;}
 #buddypress div.message-search label {display: none;}
 #buddypress .current-member-type {font-style: italic;}
 #buddypress .dir-form {clear: both;}
@@ -348,15 +348,15 @@ body.groups.single-item .main-side > .title {display: none;}
 #buddypress div#item-nav ul li.loading a {background-position: 88% 50%;}
 #buddypress div#item-nav ul li a {padding: 15px 20px;font-size: 12px;text-transform: uppercase;font-family: inherit;font-weight: 400;line-height: 20px;}
 #buddypress div#item-nav ul li a:hover {color: #555;}
-#buddypress div#item-nav ul li a:before {font: 240% fontawesome;content: "";display: block;text-align: center;transition: all .2s ease-in-out 0s;}
+#buddypress div#item-nav ul li a:before {font: 240% Font Awesome 5 Pro;content: "";display: block;text-align: center;transition: all .2s ease-in-out 0s;font-weight: 300;}
 #buddypress div#item-nav ul li a span {position: absolute;top: 10px;left: 52%;z-index: 12;}
 #buddypress div#item-nav ul #activity-personal-li a:before, #buddypress div#item-nav ul #home-groups-li a:before {content: "";}
-#buddypress div#item-nav ul #xprofile-personal-li a:before {content: "";}
-#buddypress div#item-nav ul #notifications-personal-li a:before {content: "";}
-#buddypress div#item-nav ul #messages-personal-li a:before {content: "";}
+#buddypress div#item-nav ul #xprofile-personal-li a:before {content: "";}
+#buddypress div#item-nav ul #notifications-personal-li a:before {content: "";}
+#buddypress div#item-nav ul #messages-personal-li a:before {content: "";}
 #buddypress div#item-nav ul #friends-personal-li a:before, #buddypress div#item-nav ul #members-following-personal-li a:before, #buddypress div#item-nav ul #members-followers-personal-li a:before {content: "";}
 #buddypress div#item-nav ul #groups-personal-li a:before {content: "";}
-#buddypress div#item-nav ul #forums-personal-li a:before, #buddypress div#item-nav ul #nav-forum-groups-li a:before {content: "";}
+#buddypress div#item-nav ul #forums-personal-li a:before, #buddypress div#item-nav ul #nav-forum-groups-li a:before {content: "";}
 #buddypress div#item-nav ul #buddydrive-personal-li a:before, #buddypress div#item-nav ul #nav-buddydrive-groups-li a:before {content: "";}
 #buddypress div#item-nav ul #media-personal-li a:before, #buddypress div#item-nav ul #rtmedia-media-nav-groups-li a:before {content: "";}
 #buddypress div#item-nav ul #settings-personal-li a:before, #buddypress div#item-nav ul #admin-groups-li a:before {content: "";}
@@ -366,8 +366,8 @@ body.groups.single-item .main-side > .title {display: none;}
 #buddypress div#item-nav ul #blogs-personal-li a:before {content: "";}
 #buddypress div#item-nav ul #posts-personal-li a:before {content: "";}
 #buddypress div#item-nav ul #products-personal-li a:before {content: "";}
-#buddypress div#item-nav ul #articles-personal-li a:before {content: "";}
-#buddypress div#item-nav ul #location-personal-li a:before, #buddypress div#item-nav ul #nav-gmw-group-location-groups-li a:before {content: "";}
+#buddypress div#item-nav ul #articles-personal-li a:before {content: "";}
+#buddypress div#item-nav ul #location-personal-li a:before, #buddypress div#item-nav ul #nav-gmw-group-location-groups-li a:before {content: "";}
 #buddypress div#item-nav ul #orders-personal-li a::before {content: "";}
 #buddypress div#item-nav ul #nav-products-groups-li a:before {content: "";}
 #buddypress div#item-nav ul #hiddenposts-personal-li, #buddypress div#item-nav ul #hiddenproducts-personal-li {display: none;}
@@ -379,7 +379,7 @@ body.groups.single-item .main-side > .title {display: none;}
 #buddypress #rhbp-iconed-menu div.item-list-tabs {border: none;background: none transparent;}
 #buddypress div.item-list-tabs ul li {margin: 0;list-style: none;flex: none;float: left;}
 #buddypress div.item-list-tabs ul.rhgreedylinks li {float: none;}
-#buddypress .activity-list li.loading a:before, .generic-button.loading a:before, #buddypress div.item-list-tabs ul li.loading a:before, #buddypress input[type="submit"].loading:before {font-size: 12px;color: #aaa;display: inline-block;content: "" !important;font-family: FontAwesome;-webkit-animation: fa-spin 1s linear infinite;-moz-animation: fa-spin 1s linear infinite;-o-animation: fa-spin 1s linear infinite;animation: fa-spin 1s linear infinite;margin: 0 3px;}
+#buddypress .activity-list li.loading a:before, .generic-button.loading a:before, #buddypress div.item-list-tabs ul li.loading a:before, #buddypress input[type="submit"].loading:before {font-size: 12px;color: #aaa;display: inline-block;content: "" !important;font-family: Font Awesome 5 Pro;-webkit-animation: fa-spin 1s linear infinite;-moz-animation: fa-spin 1s linear infinite;-o-animation: fa-spin 1s linear infinite;animation: fa-spin 1s linear infinite;margin: 0 3px;}
 #buddypress .generic-button.loading a.friendship-button:before {color: #fff;}
 #buddypress div.item-list-tabs ul {margin: 0;overflow: hidden;}
 #buddypress div.item-list-tabs ul li.last select, #buddypress form#whats-new-form #whats-new-options select, #buddypress form#notifications-bulk-management div.notifications-options-nav select, #buddypress select#messages-select {max-width: 185px;padding: 5px;border: 1px solid #ddd;color: #777;}
@@ -518,6 +518,7 @@ div.gmw-map-wrapper {margin-bottom: 20px;}
 .widget_bp_core_recently_active_widget .item-avatar {float: left;margin: 0 10px 10px 0;}
 .item-list-tabs .message-search {margin-bottom: 15px;}
 #buddypress .messages .bp-screen-reader-text {display: none;}
+.buddyboss-media-photos-wrap-container a {float: none !important;}
 @media (max-width: 1023px) {#rh-header-bp-content-btns .generic-button a {padding: 13px;margin-bottom: 15px;}
 	#rh-header-bp-content-wrap {display: block;position: relative;bottom: auto;left: auto;top: auto;right: auto;transform: none;}
 	#rh-header-bp-avatar, #rh-header-bp-content, #rh-header-bp-content-btns, #rh-bp-profile-stats {display: block;text-align: center;padding: 0;margin-bottom: 10px;width: 100%;}
@@ -526,7 +527,8 @@ div.gmw-map-wrapper {margin-bottom: 20px;}
 	#rh-bp-profile-stats {text-align: left;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;border-left: none;border-right: none;padding: 10px 0;}}
 @media (max-width: 767px) {#buddypress div#group-dir-search, #buddypress div#groups-dir-search, #buddypress div#members-dir-search {width: 90%;}
 	#buddypress div.activity-meta a {margin-bottom: 8px;}
-	#buddypress .dir-search input[type=text] {min-width: 100px;}}
+	#buddypress .dir-search input[type=text] {min-width: 100px;}
+	body#buddypress #item-body {padding: 0;}}
 @media only screen and (max-width:480px ) {#buddypress table#message-threads th {display: none;}
 	#buddypress table#message-threads tr, #buddypress table#message-threads tr td, #buddypress table#message-threads tr.unread td, #buddypress table#message-threads th.bulk-select-all {display: block;}
 	#buddypress .standard-form .settings-input {width: 100%;}
@@ -587,7 +589,7 @@ li.friend-tab img.avatar {margin: 0 4px;}
 #gmw-your-location-wrapper form .gmw-yl-tab-wrapper table tr th {text-align: left !important;}
 .adress-user-geo {font-size: 84%;background: #f2fbff;padding: 20px 10px;border-top: 1px solid #ddd;padding-top: 10px;line-height: 20px;color: #666;}
 #buddypress #members-list.geowp-item-list .member-inner-list {padding-bottom: 90px;}
-#buddypress #members-list.geowp-item-list .member-inner-list .adress-user-geo {position: absolute;bottom: 0;}
+#buddypress #members-list.geowp-item-list .member-inner-list .adress-user-geo {position: absolute;bottom: 0;width: 100%;}
 .geo-pagination {margin: 15px 0;color: #777;font-size: 90%;overflow: hidden;}
 .distance-to-user-geo {margin: 12px 0;}
 .distance-to-user-geo i {color: #999;}
